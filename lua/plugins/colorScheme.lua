@@ -1,6 +1,6 @@
 return {
   {
-    "ellisonleao/gruvbox.nvim",
+
     "sainnhe/everforest",
     "ku1ik/vim-monokai",
     "junegunn/seoul256.vim",
@@ -10,15 +10,17 @@ return {
     "scottmckendry/cyberdream.nvim",
     "sainnhe/gruvbox-material",
   },
-  -- Configure LazyVim to load everforest with transparency
+
+  {
+    "ellisonleao/gruvbox.nvim",
+    opts = {
+      transparent_mode = true,
+    },
+  },
   {
     "LazyVim/LazyVim",
-    init = function()
-      -- Enable transparent background for everforest
-      vim.g.everforest_transparent_background = 2
-    end,
     opts = {
-      colorscheme = "everforest",
+      colorscheme = "gruvbox",
     },
   },
 }

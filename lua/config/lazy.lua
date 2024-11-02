@@ -16,7 +16,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
   ui = {
-    border = "rounded",
+    border = "single",
   },
   spec = {
     -- add LazyVim and import its plugins
