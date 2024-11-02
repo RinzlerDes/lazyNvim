@@ -15,7 +15,7 @@ return {
     "LazyVim/LazyVim",
     init = function()
       -- Enable transparent background for everforest
-      vim.g.everforest_transparent_background = 1
+      vim.g.everforest_transparent_background = 2
     end,
     opts = {
       colorscheme = "everforest",
