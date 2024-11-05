@@ -1,7 +1,15 @@
 return {
   "folke/noice.nvim",
+  -- init = function()
+  --   vim.diagnostic.config({
+  --     float = {
+  --       border = "rounded",
+  --     },
+  --   })
+  -- end,
   opts = {
     presets = { bottom_search = false, lsp_doc_border = true },
+    -- Uncomment and configure views if you want custom popup and hover settings
     -- views = {
     --   popup = {
     --     border = {
@@ -16,6 +24,7 @@ return {
     -- },
   },
 }
+
 --
 -- guide
 --

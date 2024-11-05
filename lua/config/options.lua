@@ -17,3 +17,9 @@ vim.opt.guicursor = {
   "i-ci-ve:ver25-blinkon100", -- Insert, Command-line, Visual-Ex mode: vertical line cursor that blinks
   "r-cr:hor20-blinkon100", -- Replace mode: horizontal bar cursor that blinks
 }
+
+-- vim.diagnostic.config({
+--   float = {
+--     border = "rounded",
+--   },
+-- })

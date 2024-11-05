@@ -1,14 +1,15 @@
 return {
-  {
 
+  {
     "sainnhe/everforest",
-    "ku1ik/vim-monokai",
-    "junegunn/seoul256.vim",
-    "rebelot/kanagawa.nvim",
-    "sainnhe/sonokai",
-    "rose-pine/neovim",
-    "scottmckendry/cyberdream.nvim",
-    "sainnhe/gruvbox-material",
+    init = function()
+      -- Enable transparent background for everforest
+      vim.g.everforest_transparent_background = 2
+    end,
+  },
+
+  {
+    "nyoom-engineering/oxocarbon.nvim",
   },
 
   {
@@ -17,6 +18,8 @@ return {
       transparent_mode = true,
     },
   },
+
+  -- Set colorscheme
   {
     "LazyVim/LazyVim",
     opts = {
